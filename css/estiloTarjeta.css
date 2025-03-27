@@ -1,0 +1,36 @@
+*{ /*universal*/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /* Hace que el padding no afecte al tamaño de la tarjeta*/
+}
+
+body{
+    height: 100vh;
+color: white;
+}
+.tarjeta{
+    border: solid 3px #784af7;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.cabecera {
+    background-color: #784af7;
+    height: 100%;
+    width:100%;
+    color: azure;
+    text-align: center;
+    
+}
+
+.data {
+    background-color: white;
+}
+
+#contenedor {
+   height: 90vh; /*    Alto del body, unidad viemwport heigth, solo para utilizar en body*/
+    background-color: #444;
+}
